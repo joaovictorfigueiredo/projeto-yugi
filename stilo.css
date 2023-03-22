@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html , body{
+    height: 100vh;
+    width:100vw;
+    
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+
+    
+}
+
+#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+
+    width: 500px;
+    height: 650px;
+    background: url(Imagens/semfundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#sociais{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+
+#sociais ul li{
+    padding: 10px;
+}
+
+#sociais ul li a img{
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+#sociais ul li a img:hover{
+    width: 70px;
+    box-shadow: 5px 4px 10px #fff;
+}
+
+#telefone iframe{
+    position: absolute;
+    /* height: 650px; */
+    top: 37px;
+    left: 113px;
+    width: 273px;
+    height: 565px;
+    border-radius: 41px;
+    overflow: auto
+}
